@@ -1,0 +1,10 @@
+EXCEPTION TYPE: <class 'replicate.exceptions.ReplicateError'>
+STATUS: 402
+REPR: ReplicateError(type=None, title='Insufficient credit', status=402, detail='You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.', instance=None)
+DICT: {
+  "type": null,
+  "title": "Insufficient credit",
+  "status": 402,
+  "detail": "You have insufficient credit to run this model. Go to https://replicate.com/account/billing#billing to purchase credit. Once you purchase credit, please wait a few minutes before trying again.",
+  "instance": null
+}

@@ -1,0 +1,14 @@
+# Node
+node_modules/
+dist/
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.env
+
+# Temporary 360 frames (Prevents IDE from crashing during generation)
+backend/generate_360/temp_360/
+temp_360/

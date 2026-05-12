@@ -1,0 +1,14 @@
+{
+  "site_package_search_strategy": "all",
+  "source_directories": [
+    "."
+  ],
+  "search_path": [
+    "c:/Users/deepa/Desktop/LUXEDIVE/LUXEDIVE/LUXEDIVE/backend/generate_360/venv/Lib/site-packages"
+  ],
+  "python_version": "3.13",
+  "exclude": [
+    "**/venv",
+    "**/node_modules"
+  ]
+}

@@ -1,0 +1,277 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', Georgia, serif;
+
+  /* ── Gold accent (same in both themes) ── */
+  --color-luxe-gold: #D4AF37;
+  --color-luxe-gold-light: #F4C430;
+  --color-luxe-gold-dim: #AA8C2C;
+
+  /* ── Map semantic theme tokens → Tailwind classes ── */
+  --color-luxe-black: var(--theme-bg-base);
+  --color-luxe-dark: var(--theme-bg-card);
+  --color-luxe-surface: var(--theme-bg-surface);
+  --color-luxe-gray: var(--theme-text-muted);
+  --color-luxe-white: var(--theme-text-primary);
+  --color-luxe-border: var(--theme-border);
+}
+
+/* ══════════════════════════════════════════
+   DARK THEME (default — pure black luxury)
+   ══════════════════════════════════════════ */
+:root,
+html.dark {
+  --theme-bg-base: #0B0D10;
+  --theme-bg-card: #12151A;
+  --theme-bg-surface: #161A20;
+  --theme-text-primary: #E5E7EB;
+  --theme-text-muted: #9CA3AF;
+  --theme-border: rgba(255, 255, 255, 0.08);
+  --theme-border-strong: rgba(255, 255, 255, 0.15);
+  --theme-overlay: rgba(11, 13, 16, 0.85);
+
+  /* Scrollbar */
+  color-scheme: dark;
+}
+
+/* ══════════════════════════════════════════
+   LIGHT THEME — elegant warm ivory
+   ══════════════════════════════════════════ */
+html.light {
+  --theme-bg-base: #F9F7F4;
+  --theme-bg-card: #FFFFFF;
+  --theme-bg-surface: #F2EFE9;
+  --theme-text-primary: #1A1A1A;
+  --theme-text-muted: #6B7280;
+  --theme-border: rgba(0, 0, 0, 0.08);
+  --theme-border-strong: rgba(0, 0, 0, 0.15);
+  --theme-overlay: rgba(249, 247, 244, 0.85);
+
+  color-scheme: light;
+}
+
+/* ══════════════════════════════════════════
+   GLOBAL BASE STYLES
+   ══════════════════════════════════════════ */
+@layer base {
+
+  /* Smooth transition for ALL theme-affected properties — no flicker */
+  html {
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  body {
+    @apply bg-luxe-black text-luxe-white font-sans antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-serif text-luxe-gold;
+  }
+
+  .glass-panel {
+    background: var(--theme-bg-card);
+    border: 1px solid var(--theme-border);
+    @apply backdrop-blur-md shadow-xl;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+
+  .glass-panel-hover {
+    @apply hover:border-luxe-gold/30 hover:shadow-luxe-gold/10 transition-all duration-300;
+  }
+
+  /* Theme transition — applied to all elements */
+  *,
+  *::before,
+  *::after {
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease,
+      color 0.3s ease,
+      box-shadow 0.3s ease;
+  }
+}
+
+/* ══════════════════════════════════════════
+   ANIMATIONS
+   ══════════════════════════════════════════ */
+@keyframes slow-pan {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-glow {
+  animation: slow-pan 8s ease infinite;
+  background-size: 200% 200%;
+}
+
+@keyframes slide-down {
+  from { transform: translateY(-100%) translateX(0); opacity: 0; }
+  to { transform: translateY(0) translateX(0); opacity: 1; }
+}
+
+@keyframes slide-up {
+  from { transform: translateY(0) translateX(0); opacity: 1; }
+  to { transform: translateY(-100%) translateX(0); opacity: 0; }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.animate-slide-up {
+  animation: slide-up 0.5s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+/* ══════════════════════════════════════════
+   LIGHT THEME OVERRIDES for hard-coded classes
+   These are necessary because many components use raw Tailwind
+   dark-tone classes (bg-[#0B0D10], text-white, etc.)
+   ══════════════════════════════════════════ */
+html.light {
+  /* Override hard-coded black bodies in hero/cards */
+  --tw-bg-opacity: 1;
+}
+
+/* Force readable borders in light mode */
+html.light .border-white\/5 {
+  border-color: rgba(0, 0, 0, 0.06);
+}
+
+html.light .border-white\/10 {
+  border-color: rgba(0, 0, 0, 0.10);
+}
+
+html.light .border-white\/20 {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+html.light .bg-white\/5 {
+  background-color: rgba(0, 0, 0, 0.03);
+}
+
+html.light .bg-white\/10 {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+html.light .bg-luxe-black\/80 {
+  background-color: rgba(249, 247, 244, 0.85);
+}
+
+html.light .text-white {
+  color: #1A1A1A;
+}
+
+html.light .text-gray-400 {
+  color: #6B7280;
+}
+
+html.light .text-gray-500 {
+  color: #9CA3AF;
+}
+
+html.light .text-gray-600 {
+  color: #9CA3AF;
+}
+
+html.light .bg-\[\#050505\] {
+  background-color: #F9F7F4;
+}
+
+html.light .bg-\[\#0B0D10\] {
+  background-color: #F9F7F4;
+}
+
+html.light .bg-\[\#12151A\] {
+  background-color: #FFFFFF;
+}
+
+html.light .from-black {
+  --tw-gradient-from: #F9F7F4;
+}
+
+html.light .via-zinc-950 {
+  --tw-gradient-via: #F2EFE9;
+}
+
+html.light .to-black {
+  --tw-gradient-to: #F9F7F4;
+}
+
+html.light .from-\[\#050505\] {
+  --tw-gradient-from: #F9F7F4;
+}
+
+/* Navbar in light mode */
+html.light header {
+  background-color: rgba(249, 247, 244, 0.92) !important;
+  border-bottom-color: rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ══════════════════════════════════════════
+   CUSTOM TOAST SYSTEM
+   ══════════════════════════════════════════ */
+.custom-toast {
+  position: fixed;
+  top: 40px;
+  right: 40px;
+  padding: 14px 24px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 700;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  font-family: var(--font-sans);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.custom-toast.warning {
+  background: rgba(255, 165, 0, 0.9);
+  color: black;
+  border: 1px solid rgba(255, 165, 0, 0.4);
+}
+
+.custom-toast.error {
+  background: rgba(255, 0, 0, 0.9);
+  color: white;
+  border: 1px solid rgba(255, 0, 0, 0.4);
+}
+
+.custom-toast.success {
+  background: rgba(0, 200, 100, 0.9);
+  color: white;
+  border: 1px solid rgba(0, 200, 100, 0.4);
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes shrink {
+  from { width: 100%; }
+  to { width: 0%; }
+}
+
+.animate-shrink {
+  animation: shrink 4s linear forwards;
+}

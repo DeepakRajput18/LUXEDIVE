@@ -1,0 +1,1 @@
+src/pages/booking/steps/PaymentGateway.tsx(47,63): error TS2339: Property 'processBookingPayment' does not exist on type '{ createOrder(params: CreateOrderParams): Promise<any>; verifyPayment(params: VerifyPaymentParams): Promise<any>; loadRazorpayScript(): Promise<...>; requestRefund(paymentId: string, amount?: number | undefined, reason?: string | undefined): Promise<...>; }'.

@@ -1,0 +1,10 @@
+{
+  "python.defaultInterpreterPath": "${workspaceFolder}/LUXEDIVE/LUXEDIVE/backend/generate_360/venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.envFile": "${workspaceFolder}/LUXEDIVE/LUXEDIVE/backend/generate_360/.env",
+  "python.analysis.extraPaths": [
+    "${workspaceFolder}/LUXEDIVE/LUXEDIVE/backend/generate_360/venv/Lib/site-packages"
+  ],
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": false
+}

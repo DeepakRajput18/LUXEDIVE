@@ -1,0 +1,21 @@
+{
+  "name": "luxedive-360-renderer",
+  "version": "1.0.0",
+  "description": "Headless 3D rendering engine for 360 viewer frames",
+  "main": "render_worker.js",
+  "type": "module",
+  "scripts": {
+    "start": "node render_worker.js",
+    "test": "node test_render.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.7",
+    "dotenv": "^16.4.5",
+    "node-fetch": "^3.3.2",
+    "pixelmatch": "^7.1.0",
+    "pngjs": "^7.0.0",
+    "puppeteer": "^22.0.0",
+    "replicate": "^0.29.4",
+    "sharp": "^0.33.2"
+  }
+}

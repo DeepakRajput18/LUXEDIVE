@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Image URL Test</title>
+    <style>
+        body {
+            background: #000;
+            color: #fff;
+            padding: 20px;
+            font-family: Arial;
+        }
+
+        .test-image {
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            border: 2px solid #fff;
+            margin: 10px;
+            display: inline-block;
+        }
+
+        .category {
+            display: inline-block;
+            margin: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #gold;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Category Image URL Test</h1>
+    <p>Testing if Unsplash URLs load correctly:</p>
+
+    <div class="category">
+        <h2>Exotic (Lamborghini)</h2>
+        <img class="test-image"
+            src="https://images.unsplash.com/photo-1544605975-fd12871f3014?auto=format&fit=crop&q=80" alt="Exotic"
+            onerror="this.style.border='2px solid red'; this.alt='FAILED TO LOAD'">
+    </div>
+
+    <div class="category">
+        <h2>Luxury (Rolls Phantom)</h2>
+        <img class="test-image"
+            src="https://images.unsplash.com/photo-1631295868223-63265b40d9e4?auto=format&fit=crop&q=80" alt="Luxury"
+            onerror="this.style.border='2px solid red'; this.alt='FAILED TO LOAD'">
+    </div>
+
+    <div class="category">
+        <h2>Sports (Porsche)</h2>
+        <img class="test-image"
+            src="https://images.unsplash.com/photo-1580274455191-1c62238fa333?auto=format&fit=crop&q=80" alt="Sports"
+            onerror="this.style.border='2px solid red'; this.alt='FAILED TO LOAD'">
+    </div>
+
+    <div class="category">
+        <h2>Wedding (Rolls Ghost)</h2>
+        <img class="test-image"
+            src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&q=80" alt="Wedding"
+            onerror="this.style.border='2px solid red'; this.alt='FAILED TO LOAD'">
+    </div>
+
+    <script>
+        document.querySelectorAll('.test-image').forEach(img => {
+            img.onload = function () {
+                console.log('✅ Loaded:', img.alt, '|', img.src);
+                img.style.border = '2px solid green';
+            };
+            img.onerror = function () {
+                console.error('❌ Failed:', img.alt, '|', img.src);
+                img.style.border = '2px solid red';
+            };
+        });
+    </script>
+</body>
+
+</html>

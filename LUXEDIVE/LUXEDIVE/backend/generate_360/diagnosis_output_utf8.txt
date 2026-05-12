@@ -1,0 +1,34 @@
+﻿======================================================================
+LUXEDIVE 360 SYSTEM DIAGNOSTIC
+======================================================================
+
+Python: 3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]
+
+ENVIRONMENT VARIABLES:
+  [OK] SERPAPI_KEY: your_key_here...
+  [OK] SUPABASE_URL: https://txxguqcuirkcvtfbcgak.s...
+  [OK] SUPABASE_SERVICE_ROLE_KEY: your_service_role_key_here...
+  [OK] DATABASE_URL: postgresql://postgres.txxguqcu...
+
+PYTHON PACKAGES:
+  [NOT INSTALLED] rembg
+  [NOT INSTALLED] opencv-python
+  [OK] pillow (PIL)
+  [OK] psycopg2-binary (psycopg2)
+  [OK] supabase (supabase)
+  [NOT INSTALLED] google-search-results
+
+DIRECTORIES:
+  [OK] temp_frames/
+
+DATABASE CONNECTION:
+  [FAILED] connection to server at "aws-0-ap-south-1.pooler.supabase.com" (3.111.105.85), port 6543 failed: FATAL:  Tenant or user not found
+connection to server at "aws-0-ap-south-1.pooler.supabase.com" (3.111.105.85), port 6543 failed: FATAL:  Tenant or user not found
+
+
+SUPABASE STORAGE:
+  [FAILED] {'statusCode': 403, 'error': Unauthorized, 'message': Invalid Compact JWS}
+
+======================================================================
+DIAGNOSTIC COMPLETE
+======================================================================

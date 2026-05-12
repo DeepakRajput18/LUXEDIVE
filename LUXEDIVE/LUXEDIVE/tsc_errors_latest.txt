@@ -1,0 +1,45 @@
+src/components/CookieConsent.tsx(2,24): error TS2307: Cannot find module '../../components/ui/Button' or its corresponding type declarations.
+src/components/ErrorBoundary.tsx(1,21): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ErrorBoundary.tsx(1,32): error TS1484: 'ErrorInfo' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/Label.tsx(1,10): error TS1484: 'LabelHTMLAttributes' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/ui/Modal.tsx(1,20): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/lib/googleMaps.ts(6,3): error TS2353: Object literal may only specify known properties, and 'apiKey' does not exist in type 'APIOptions'.
+src/pages/admin/AdminAnalytics.tsx(23,103): error TS2353: Object literal may only specify known properties, and 'query' does not exist in type 'FunctionInvokeOptions'.
+src/pages/admin/AdminAnalytics.tsx(24,103): error TS2353: Object literal may only specify known properties, and 'query' does not exist in type 'FunctionInvokeOptions'.
+src/pages/admin/AdminAnalytics.tsx(25,103): error TS2353: Object literal may only specify known properties, and 'query' does not exist in type 'FunctionInvokeOptions'.
+src/pages/booking/DigitalAgreement.tsx(139,52): error TS2304: Cannot find name 'ArrowRight'.
+src/pages/booking/steps/BookingStep3.tsx(3,28): error TS2307: Cannot find module '../../contexts/BookingContext' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep3.tsx(4,25): error TS2307: Cannot find module '../../contexts/AuthContext' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep3.tsx(5,24): error TS2307: Cannot find module '../../components/ui/Button' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep3.tsx(6,35): error TS2307: Cannot find module '../../components/ui/Card' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep3.tsx(7,28): error TS2307: Cannot find module '../../components/ui/FileUpload' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep3Essentials.tsx(39,27): error TS2339: Property 'setBookingData' does not exist on type 'BookingContextType'.
+src/pages/booking/steps/BookingStep3Essentials.tsx(42,38): error TS2339: Property 'essentials' does not exist on type 'BookingState'.
+src/pages/booking/steps/BookingStep3Essentials.tsx(44,57): error TS7006: Parameter 'x' implicitly has an 'any' type.
+src/pages/booking/steps/BookingStep3Essentials.tsx(67,61): error TS2339: Property 'essentials' does not exist on type 'BookingState'.
+src/pages/booking/steps/BookingStep3Essentials.tsx(67,126): error TS2339: Property 'essentials' does not exist on type 'BookingState'.
+src/pages/booking/steps/BookingStep3Essentials.tsx(124,47): error TS2339: Property 'essentials' does not exist on type 'BookingState'.
+src/pages/booking/steps/BookingStep3Essentials.tsx(130,47): error TS2339: Property 'essentials' does not exist on type 'BookingState'.
+src/pages/booking/steps/BookingStep4.tsx(3,28): error TS2307: Cannot find module '../../contexts/BookingContext' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(4,25): error TS2307: Cannot find module '../../contexts/AuthContext' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(5,32): error TS2307: Cannot find module '../../services/bookingService' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(6,32): error TS2307: Cannot find module '../../services/paymentService' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(7,24): error TS2307: Cannot find module '../../components/ui/Button' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(8,35): error TS2307: Cannot find module '../../components/ui/Card' or its corresponding type declarations.
+src/pages/booking/steps/BookingStep4.tsx(38,37): error TS7006: Parameter 'addon' implicitly has an 'any' type.
+src/pages/booking/steps/BookingStep4.tsx(127,58): error TS7006: Parameter 'addon' implicitly has an 'any' type.
+src/pages/booking/steps/PaymentGateway.tsx(47,63): error TS2339: Property 'processBookingPayment' does not exist on type '{ createOrder(params: CreateOrderParams): Promise<any>; verifyPayment(params: VerifyPaymentParams): Promise<any>; loadRazorpayScript(): Promise<...>; requestRefund(paymentId: string, amount?: number | undefined, reason?: string | undefined): Promise<...>; }'.
+src/pages/dashboard/ConnectedAccounts.tsx(56,17): error TS2322: Type '"outline" | "default"' is not assignable to type '"outline" | "primary" | "secondary" | "ghost" | "destructive" | undefined'.
+  Type '"default"' is not assignable to type '"outline" | "primary" | "secondary" | "ghost" | "destructive" | undefined'.
+src/pages/dashboard/MyBookings.tsx(21,29): error TS2345: Argument of type '{ id: any; pickup_datetime: any; dropoff_datetime: any; total_amount: any; status: any; payment_status: any; delivery_type: any; car: { id: any; brand: any; model: any; image_url: any; year: any; }[]; }[]' is not assignable to parameter of type 'SetStateAction<Booking[]>'.
+  Type '{ id: any; pickup_datetime: any; dropoff_datetime: any; total_amount: any; status: any; payment_status: any; delivery_type: any; car: { id: any; brand: any; model: any; image_url: any; year: any; }[]; }[]' is not assignable to type 'Booking[]'.
+    Type '{ id: any; pickup_datetime: any; dropoff_datetime: any; total_amount: any; status: any; payment_status: any; delivery_type: any; car: { id: any; brand: any; model: any; image_url: any; year: any; }[]; }' is missing the following properties from type 'Booking': created_at, user_id, car_id
+src/pages/payment/SecureCheckout.tsx(127,105): error TS2339: Property 'make' does not exist on type 'Car'.
+src/pages/rental/ActiveTracking.tsx(32,24): error TS2345: Argument of type '{ id: any; pickup_datetime: any; dropoff_datetime: any; total_amount: any; status: any; payment_status: any; delivery_type: any; pickup_location: any; dropoff_location: any; metadata: any; created_at: any; car: { ...; }[]; }' is not assignable to parameter of type 'SetStateAction<Booking | null>'.
+  Type '{ id: any; pickup_datetime: any; dropoff_datetime: any; total_amount: any; status: any; payment_status: any; delivery_type: any; pickup_location: any; dropoff_location: any; metadata: any; created_at: any; car: { ...; }[]; }' is missing the following properties from type 'Booking': user_id, car_id
+src/pages/rental/ChauffeurDirectory.tsx(196,21): error TS2322: Type '"outline" | "default"' is not assignable to type '"outline" | "primary" | "secondary" | "ghost" | "destructive" | undefined'.
+  Type '"default"' is not assignable to type '"outline" | "primary" | "secondary" | "ghost" | "destructive" | undefined'.
+src/pages/rental/ExtensionStatus.tsx(18,21): error TS2367: This comparison appears to be unintentional because the types '"pending"' and '"approved"' have no overlap.
+src/pages/rental/QuickStartManual.tsx(67,36): error TS2322: Type '"link"' is not assignable to type '"outline" | "primary" | "secondary" | "ghost" | "destructive" | undefined'.
+src/pages/settings/ConnectedAccounts.tsx(25,30): error TS2741: Property 'to' is missing in type '{ className: string; }' but required in type 'LinkProps'.
+src/pages/support/RoadsideTrackerV4.tsx(10,5): error TS2305: Module '"lucide-react"' has no exported member 'CheckDouble'.

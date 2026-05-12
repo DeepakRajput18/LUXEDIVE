@@ -1,0 +1,13 @@
+{
+  "venvPath": "LUXEDIVE/LUXEDIVE/backend/generate_360",
+  "venv": "venv",
+  "executionEnvironments": [
+    {
+      "root": "LUXEDIVE/LUXEDIVE/backend/generate_360",
+      "pythonVersion": "3.13",
+      "extraPaths": [
+        "LUXEDIVE/LUXEDIVE/backend/generate_360/venv/Lib/site-packages"
+      ]
+    }
+  ]
+}

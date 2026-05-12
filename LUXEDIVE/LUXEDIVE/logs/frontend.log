@@ -1,0 +1,195 @@
+
+> luxedive@0.0.0 dev:frontend
+> vite
+
+
+  [32m[1mVITE[22m v6.4.1[39m  [2mready in [0m[1m865[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[2m[32m  ➜[39m[22m[2m  press [22m[1mh + enter[22m[2m to show help[22m
+[2m4:17:39 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mFINAL_DOCUMENTATION.md[22m
+[2m4:18:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mDEPLOYMENT.md[22m
+[2m4:28:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2mpackage.json[22m
+[2m4:28:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m4:31:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m4:34:19 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m4:43:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/DocumentVerification.tsx, /src/index.css[22m
+[2m4:48:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m4:48:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingSummary.tsx, /src/index.css[22m
+[2m4:48:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/SignUp.tsx, /src/index.css[22m
+[2m4:49:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/UpdatePassword.tsx, /src/index.css[22m
+[2m4:49:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/DigitalAgreement.tsx[22m
+[2m4:49:30 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/rental/HandoverChecklist.tsx[22m
+[2m4:49:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/rental/RefundTracker.tsx[22m
+[2m4:49:55 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/rental/DepositReceipt.tsx[22m
+[2m4:50:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/manual/QuickStartManualV3.tsx[22m
+[2m4:50:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/legal/CookieConsent.tsx[22m
+[2m4:50:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/legal/LegalHub.tsx[22m
+[2m4:50:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/HistoryPage.tsx, /src/index.css[22m
+[2m4:51:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/CommitmentSafety.tsx[22m
+[2m4:51:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/settings/ConnectedAccounts.tsx[22m
+[2m4:51:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/steps/BookingStep3.tsx[22m
+[2m4:52:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/steps/BookingStep4.tsx[22m
+[2m4:52:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/steps/PaymentGateway.tsx[22m
+[2m4:52:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/PriceSummary.tsx[22m
+[2m4:53:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/Login.tsx, /src/index.css[22m
+[2m4:53:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/PreCheckInVerification.tsx[22m
+[2m4:53:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/AccountSuspended.tsx, /src/index.css[22m
+[2m4:54:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/DocumentUpload.tsx, /src/index.css[22m
+[2m4:54:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/account/PrivacyDataPortal.tsx[22m
+[2m4:54:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminLogin.tsx, /src/index.css[22m
+[2m4:54:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/components/booking/PaymentMock.tsx[22m
+[2m4:55:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/payment/PaymentRecovery.tsx[22m
+[2m4:55:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/auth/PasswordReset.tsx[22m
+[2m4:55:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/BookingFlow.tsx, /src/index.css[22m
+[2m4:56:13 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/account/PaymentVault.tsx, /src/index.css[22m
+[2m4:56:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/account/UserSettings.tsx, /src/index.css[22m
+[2m4:56:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/account/RewardsVoucher.tsx, /src/index.css[22m
+[2m4:56:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/account/DepositReceipt.tsx[22m
+[2m5:01:42 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingSummary.tsx, /src/index.css[22m
+[2m5:02:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingSummary.tsx, /src/index.css[22m
+[2m5:03:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingSummary.tsx, /src/index.css[22m
+[2m6:13:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:13:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:27:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m6:30:59 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:33:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m6:34:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m6:35:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:38:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:38:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:39:15 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:39:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m6:39:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m6:40:01 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/BookingLayout.tsx, /src/index.css[22m
+[2m6:46:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:47:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:47:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/layout/BookingLayout.tsx, /src/index.css[22m
+[2m6:47:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:53:10 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m6:57:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:00:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:02:17 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:03:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:07:31 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:08:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:09:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:09:27 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:12:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:15:35 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:16:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:18:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:26:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:30:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:30:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m7:47:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m7:48:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m7:49:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m7:59:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:04:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:11:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:12:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:14:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:15:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/PendingBookingPage.tsx, /src/index.css[22m
+[2m8:19:57 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/ChauffeurBio.tsx, /src/index.css[22m
+[2m8:40:56 PM[22m [36m[1m[vite][22m[39m [32m.env changed, restarting server...[39m
+[2m8:40:56 PM[22m [36m[1m[vite][22m[39m server restarted.
+[2m8:41:28 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/contexts/AuthContext.tsx, /src/index.css[22m
+[2m8:42:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/contexts/AuthContext.tsx, /src/index.css[22m
+[2m8:42:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/contexts/AuthContext.tsx[22m Could not Fast Refresh ("useAuth" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m8:42:53 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/dashboard/CustomerDashboard.tsx, /src/pages/auth/SignUp.tsx, /src/pages/dashboard/RentalHistory.tsx, /src/pages/dashboard/MyBookingsList.tsx, /src/pages/AddVehicle.tsx, /src/pages/dashboard/DashboardHome.tsx, /src/pages/dashboard/MyVehicles.tsx, /src/pages/dashboard/DocumentVault.tsx, /src/pages/auth/ForgotPassword.tsx, /src/pages/dashboard/PaymentHistory.tsx, /src/pages/dashboard/Favorites.tsx, /src/pages/booking/modern/BookingSummary.tsx, /src/pages/dashboard/FinesTracker.tsx, /src/pages/fleet/FleetListing.tsx, /src/pages/admin/VehicleApproval.tsx, /src/pages/booking/modern/DocumentVerification.tsx, /src/pages/dashboard/WaitlistDashboard.tsx, /src/pages/booking/PendingBookingPage.tsx, /src/pages/booking/BookingFlow.tsx, /src/pages/payment/SecureCheckout.tsx, /src/pages/dashboard/SavedAddresses.tsx, /src/pages/Home.tsx, /src/components/auth/PublicRoute.tsx, /src/components/auth/ProtectedRoute.tsx, /src/pages/account/NotificationCenter.tsx, /src/pages/account/UserSettings.tsx, /src/pages/account/UserProfile.tsx, /src/components/dashboard/DashboardSidebar.tsx, /src/components/layout/RootLayout.tsx, /src/components/layout/Navbar.tsx, /src/components/profile/OtpVerificationModal.tsx[22m
+[2m8:42:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/dashboard/DashboardSidebar.tsx[22m Could not Fast Refresh ("NAVIGATION" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m8:42:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/DashboardLayout.tsx, /src/index.css[22m
+[2m8:52:54 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/SignUp.tsx, /src/index.css[22m
+[2m8:53:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/Login.tsx, /src/index.css[22m
+[2m9:11:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m9:12:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/DocumentVerification.tsx, /src/index.css[22m
+[2m9:15:58 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/rental/ActiveTracking.tsx, /src/index.css, /src/pages/rental/ExtendRental.tsx, /src/pages/booking/InvoicePage.tsx[22m
+[2m9:16:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/InvoicePage.tsx, /src/index.css[22m
+[2m9:16:20 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/invoice/InvoiceTemplate.tsx, /src/index.css[22m
+[2m9:17:43 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m9:19:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/invoice/InvoiceTemplate.tsx, /src/index.css[22m
+[2m9:19:21 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/booking/BookingConfirmation.tsx[22m
+[2m9:48:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m9:48:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m9:54:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/rental/ActiveTracking.tsx, /src/index.css, /src/pages/rental/ExtendRental.tsx, /src/pages/booking/InvoicePage.tsx[22m
+[2m9:55:00 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/services/profileService.ts[22m
+[2m9:55:32 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/services/addressService.ts[22m
+[2m9:55:51 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/DocumentVerification.tsx, /src/index.css[22m
+[2m9:56:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m10:01:49 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/team/TeamMemberBio.tsx, /src/index.css, /src/pages/About.tsx[22m
+[2m10:05:50 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/team/TeamMemberBio.tsx, /src/index.css, /src/pages/About.tsx[22m
+[2m10:07:23 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/team/TeamMemberBio.tsx, /src/index.css, /src/pages/About.tsx[22m
+[2m10:17:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/dashboard/PaymentHistory.tsx, /src/index.css[22m
+[2m10:18:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/dashboard/PaymentHistory.tsx, /src/index.css[22m
+[2m10:18:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/dashboard/PaymentHistory.tsx, /src/index.css[22m
+[2m10:26:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/DashboardSidebar.tsx, /src/index.css[22m
+[2m10:26:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/components/dashboard/DashboardSidebar.tsx[22m Could not Fast Refresh ("NAVIGATION" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m10:26:18 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/DashboardLayout.tsx, /src/index.css[22m
+[2m10:26:37 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m10:26:47 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m10:30:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/account/UserProfile.tsx, /src/index.css[22m
+[2m10:31:40 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/account/ProfileSettings.tsx[22m
+[2m10:43:02 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingsManagement.tsx, /src/index.css[22m
+[2m10:43:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingsManagement.tsx, /src/index.css[22m
+[2m11:07:08 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m11:20:16 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/auth/Login.tsx, /src/index.css[22m
+[2m11:28:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/auth/ProtectedRoute.tsx, /src/index.css[22m
+[2m11:29:22 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/DashboardLayout.tsx, /src/index.css[22m
+[2m11:35:46 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/DashboardLayout.tsx, /src/index.css[22m
+[2m11:36:05 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/ProfileDropdown.tsx, /src/index.css[22m
+[2m11:42:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m11:42:24 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminUsers.tsx, /src/index.css[22m
+[2m11:44:11 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/admin/UserDetails.tsx[22m
+[2m11:45:25 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m11:52:36 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminUsers.tsx, /src/index.css[22m
+[2m11:58:33 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css[22m
+[2m11:58:44 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/ChauffeurDetails.tsx, /src/index.css[22m
+[2m11:58:56 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/ChauffeurStats.tsx, /src/index.css[22m
+[2m12:07:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/UserDetails.tsx, /src/index.css[22m
+[2m12:18:46 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m12:30:28 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/contexts/AuthContext.tsx, /src/index.css, /src/pages/auth/Login.tsx, /src/pages/auth/UpdatePassword.tsx, /src/pages/Contact.tsx, /src/pages/rental/ActiveTracking.tsx, /src/pages/admin/AdminActivityFeed.tsx, /src/pages/auth/SignUp.tsx, /src/pages/dashboard/RentalHistory.tsx, /src/pages/admin/AdminPricing.tsx, /src/pages/admin/DriverManager.tsx, /src/pages/booking/DocumentUpload.tsx, /src/pages/admin/AdminBookings.tsx, /src/pages/dashboard/MyBookingsList.tsx, /src/pages/AddVehicle.tsx, /src/pages/admin/AdminAnalytics.tsx, /src/pages/admin/AdminFleet.tsx, /src/pages/admin/AdminAuditLog.tsx, /src/pages/admin/AdminSessions.tsx, /src/pages/dashboard/DashboardHome.tsx, /src/pages/booking/modern/BookingItinerary.tsx, /src/pages/rental/ExtendRental.tsx, /src/pages/dashboard/MyVehicles.tsx, /src/pages/dashboard/DocumentVault.tsx, /src/pages/dashboard/PaymentHistory.tsx, /src/pages/admin/InquiriesManagement.tsx, /src/pages/dashboard/Favorites.tsx, /src/pages/admin/AdminDashboard.tsx, /src/pages/admin/UserFavorites.tsx, /src/pages/admin/BookingDetails.tsx, /src/pages/dashboard/FinesTracker.tsx, /src/pages/fleet/FleetListing.tsx, /src/pages/admin/AdminReviews.tsx, /src/pages/admin/AdminUsers.tsx, /src/pages/admin/VehicleApproval.tsx, /src/pages/booking/steps/BookingConfirmation.tsx, /src/pages/dashboard/WaitlistDashboard.tsx, /src/pages/booking/PendingBookingPage.tsx, /src/pages/admin/BookingsManagement.tsx, /src/pages/booking/BookingFlow.tsx, /src/pages/admin/AdminSearchAnalytics.tsx, /src/pages/admin/ChauffeurStats.tsx, /src/pages/payment/SecureCheckout.tsx, /src/pages/dashboard/SavedAddresses.tsx, /src/pages/Home.tsx, /src/pages/admin/PaymentsManagement.tsx, /src/pages/operations/HandoverChecklist.tsx, /src/pages/operations/ReturnChecklist.tsx, /src/pages/account/NotificationCenter.tsx, /src/pages/account/UserSettings.tsx, /src/pages/fleet/CarDetails.tsx, /src/pages/account/UserProfile.tsx, /src/pages/booking/modern/ChauffeurDetails.tsx, /src/pages/booking/modern/ChauffeurSelection.tsx, /src/pages/rental/ChauffeurDirectory.tsx, /src/pages/ChauffeurBio.tsx, /src/pages/booking/InvoicePage.tsx, /src/pages/admin/DemandForecastDashboard.tsx, /src/pages/rental/CompareVehicles.tsx, /src/pages/booking/modern/BookingDetails360.tsx, /src/pages/blog/BlogList.tsx, /src/pages/blog/BlogPostPage.tsx, /src/components/ui/FileUpload.tsx, /src/components/booking/WaitlistModal.tsx, /src/components/layout/RootLayout.tsx, /src/components/profile/OtpVerificationModal.tsx, /src/pages/admin/UserDetails.tsx, /src/pages/admin/ChauffeurDetails.tsx[22m
+[2m12:31:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/DocumentUpload.tsx, /src/index.css[22m
+[2m12:43:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/layouts/AdminLayout.tsx, /src/index.css[22m
+[2m12:55:47 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminDashboard.tsx, /src/index.css[22m
+[2m1:19:04 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminUsers.tsx, /src/index.css[22m
+[2m1:19:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/AdminUsers.tsx, /src/index.css[22m
+[2m1:20:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m1:25:15 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/ProfileDropdown.tsx, /src/index.css[22m
+[2m1:49:01 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/UserDetails.tsx, /src/index.css[22m
+[2m1:50:35 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/dashboard/ProfileDropdown.tsx, /src/index.css[22m
+[2m1:50:44 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/UserDetails.tsx, /src/index.css[22m
+[2m1:50:55 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m2:07:48 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/InquiriesManagement.tsx, /src/index.css[22m
+[2m9:08:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/InquiriesManagement.tsx, /src/index.css[22m
+[2m9:08:25 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/InquiriesManagement.tsx, /src/index.css[22m
+[2m9:34:41 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/HistoryPage.tsx, /src/index.css[22m
+[2m9:51:06 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingSummary.tsx, /src/index.css[22m
+[2m9:51:26 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/contexts/BookingContext.tsx, /src/index.css[22m
+[2m9:51:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [33mhmr invalidate [39m[2m/src/contexts/BookingContext.tsx[22m Could not Fast Refresh ("useBooking" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+[2m9:51:27 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/App.tsx, /src/index.css, /src/pages/booking/modern/ChauffeurDetails.tsx, /src/pages/booking/modern/BookingDetails360.tsx, /src/pages/booking/modern/BookingItinerary.tsx, /src/pages/booking/modern/ChauffeurSelection.tsx, /src/pages/booking/modern/BookingSummary.tsx, /src/pages/fleet/FleetListing.tsx, /src/pages/booking/steps/BookingConfirmation.tsx, /src/pages/booking/modern/DocumentVerification.tsx, /src/pages/booking/BookingFlow.tsx, /src/pages/payment/SecureCheckout.tsx, /src/components/layout/BookingLayout.tsx[22m
+[2m9:54:29 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/InquiriesManagement.tsx, /src/index.css[22m
+[2m9:55:32 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/dashboard/MyBookings.tsx[22m
+[2m9:55:58 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mpage reload [39m[2msrc/pages/rental/ReturnChecklist.tsx[22m
+[2m10:28:12 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:29:23 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:33:45 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/payment/SecureCheckout.tsx, /src/index.css[22m
+[2m10:40:09 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:40:54 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:41:20 AM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m7:19:06 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m7:52:09 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m7:52:45 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m8:52:38 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/booking/modern/BookingItinerary.tsx, /src/index.css[22m
+[2m10:32:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:32:29 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:33:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:36:41 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:41:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:45:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m10:57:26 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/PaymentsManagement.tsx, /src/index.css[22m
+[2m11:19:04 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m11:19:52 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m11:27:14 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/BookingDetails.tsx, /src/index.css[22m
+[2m11:36:12 PM[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/pages/admin/ChauffeurDetails.tsx, /src/index.css[22m

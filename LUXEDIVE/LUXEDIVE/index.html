@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXEDIVE — Private Luxury Mobility</title>
+
+  <!--
+      ANTI-FLICKER THEME SCRIPT
+      Runs synchronously before React mounts.
+      Reads localStorage and applies the correct theme class to <html>
+      INSTANTLY — no flash of wrong theme on page load.
+    -->
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem('luxedive-theme');
+        var preferred = saved || 'dark'; // default: dark
+        document.documentElement.classList.remove('dark', 'light');
+        document.documentElement.classList.add(preferred);
+      } catch (e) {
+        // localStorage unavailable — default to dark
+        document.documentElement.classList.add('dark');
+      }
+    })();
+  </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

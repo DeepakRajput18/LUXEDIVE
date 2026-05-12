@@ -1,0 +1,1 @@
+[Error] Could not import process_queue_item from car_360_generator.py: cannot import name 'process_queue_item' from 'car_360_generator' (C:\Users\deepa\Desktop\LUXEDIVE\LUXEDIVE\LUXEDIVE\backend\generate_360\car_360_generator.py)

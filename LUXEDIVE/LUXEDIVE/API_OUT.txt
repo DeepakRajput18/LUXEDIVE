@@ -1,0 +1,28 @@
+HTTP/1.1 200 OK
+Date: Sun, 01 Mar 2026 15:30:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Content-Range: 0-5/*
+CF-Ray: 9d5934a1dfb49a93-NAG
+CF-Cache-Status: DYNAMIC
+Content-Location: /cars?order=daily_rate.asc&select=%2A
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+content-profile: public
+sb-gateway-version: 1
+sb-project-ref: txxguqcuirkcvtfbcgak
+sb-request-id: 019caa06-212f-7ab0-a122-8033906fbcd8
+x-envoy-attempt-count: 1
+x-envoy-upstream-service-time: 22
+Set-Cookie: __cf_bm=10vT8DoVNE_3wXqQJxb5WX2bWhE.IKjxpTD8cS1qcLU-1772379054-1.0.1.1-EbhXmWZRWVfw9OKO9paL_G89WboMjRMC5vA5He3IfNci7CRipzdIO93xLX_19Tnrt._WU4mmnV6HCctvM1yafwuc3xcUH1i_5JDcemvJ1_8; path=/; expires=Sun, 01-Mar-26 16:00:54 GMT; domain=.supabase.co; HttpOnly; Secure; SameSite=None
+alt-svc: h3=":443"; ma=86400
+
+[{"id":"82e3253c-d9f0-47bc-ad9c-452f2a059b9e","brand":"Mercedes-Benz","model":"G63 AMG","year":2024,"category":"LUXURY","transmission":"automatic","fuel_type":"Petrol","seating":5,"hourly_rate":null,"daily_rate":70000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800"],"specifications":{"hp": "577", "engine": "4.0L V8 Biturbo", "features": ["AMG Performance"], "topSpeed": "220 km/h", "acceleration": "4.5s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}, 
+ {"id":"0f4b0071-b12c-4990-920c-39f8148e5a80","brand":"Porsche","model":"911 Turbo S","year":2024,"category":"SPORTS","transmission":"automatic","fuel_type":"Petrol","seating":4,"hourly_rate":null,"daily_rate":85000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800"],"specifications":{"hp": "640", "engine": "3.8L Flat-6", "features": ["Sport Chrono"], "topSpeed": "330 km/h", "acceleration": "2.7s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}, 
+ {"id":"669825b9-6180-4eb3-a89e-80fdc9a074a4","brand":"Bentley","model":"Flying Spur","year":2024,"category":"LUXURY","transmission":"automatic","fuel_type":"Petrol","seating":5,"hourly_rate":null,"daily_rate":85000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800"],"specifications":{"hp": "635", "engine": "6.0L W12", "features": ["Rotating Display"], "topSpeed": "333 km/h", "acceleration": "3.8s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}, 
+ {"id":"f80cdf69-1291-497e-98fb-66f6b541264d","brand":"Rolls Royce","model":"Phantom","year":2024,"category":"LUXURY","transmission":"automatic","fuel_type":"Petrol","seating":5,"hourly_rate":null,"daily_rate":120000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1631295868223-63265b40d9e4?w=800"],"specifications":{"hp": "563", "engine": "6.75L V12", "features": ["Starlight Headliner"], "topSpeed": "250 km/h", "acceleration": "5.3s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}, 
+ {"id":"808a09d2-cb2f-4066-bee0-42b968eb901b","brand":"Ferrari","model":"SF90 Stradale","year":2024,"category":"EXOTIC","transmission":"automatic","fuel_type":"Hybrid","seating":2,"hourly_rate":null,"daily_rate":290000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800"],"specifications":{"hp": "1000", "engine": "4.0L V8 + Electric", "features": ["Hybrid Powertrain"], "topSpeed": "340 km/h", "acceleration": "2.5s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}, 
+ {"id":"c499effd-e2ff-4999-88ef-a1f3b78514be","brand":"Lamborghini","model":"Sian FKP 37","year":2023,"category":"EXOTIC","transmission":"automatic","fuel_type":"Hybrid","seating":2,"hourly_rate":null,"daily_rate":420000.00,"weekly_rate":null,"deposit_amount":null,"is_available":true,"images":["https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800"],"specifications":{"hp": "819", "engine": "6.5L V12 + Electric", "features": ["Supercapacitor", "Limited Edition", "Hybrid V12"], "topSpeed": "355 km/h", "acceleration": "2.8s"},"created_at":"2026-02-03T15:01:50.425293+00:00","registration_number":null,"total_bookings":0,"total_revenue":0.00,"under_maintenance":false,"maintenance_notes":null,"last_service_date":null,"next_service_date":null,"average_rating":0.00,"review_count":0,"status":"available"}]

@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pillow>=10.2.0
+opencv-python
+pytesseract
+numpy
+google-cloud-vision
+tensorflow
+scipy
+scikit-image
+python-dotenv
+requests
+imagehash

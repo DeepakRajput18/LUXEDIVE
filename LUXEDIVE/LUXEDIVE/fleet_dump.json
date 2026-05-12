@@ -1,0 +1,32 @@
+[
+  {
+    "id": "669825b9-6180-4eb3-a89e-80fdc9a074a4",
+    "name": "2024 Bentley Flying Spur",
+    "image": "https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=800"
+  },
+  {
+    "id": "808a09d2-cb2f-4066-bee0-42b968eb901b",
+    "name": "2024 Ferrari SF90 Stradale",
+    "image": "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=800"
+  },
+  {
+    "id": "c499effd-e2ff-4999-88ef-a1f3b78514be",
+    "name": "2023 Lamborghini Sian FKP 37",
+    "image": "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=800"
+  },
+  {
+    "id": "82e3253c-d9f0-47bc-ad9c-452f2a059b9e",
+    "name": "2024 Mercedes-Benz G63 AMG",
+    "image": "https://images.unsplash.com/photo-1617531653332-bd46c24f2068?w=800"
+  },
+  {
+    "id": "0f4b0071-b12c-4990-920c-39f8148e5a80",
+    "name": "2024 Porsche 911 Turbo S",
+    "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800"
+  },
+  {
+    "id": "f80cdf69-1291-497e-98fb-66f6b541264d",
+    "name": "2024 Rolls Royce Phantom",
+    "image": "https://images.unsplash.com/photo-1631295868223-63265b40d9e4?w=800"
+  }
+]
