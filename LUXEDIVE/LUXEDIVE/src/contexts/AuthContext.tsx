@@ -241,9 +241,12 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
   // Send OTP via Node Backend (Fast2SMS)
   const sendOtp = async (phone: string): Promise<{ success: boolean; error?: string }> => {
     try {
-      console.log(`📡 Redirecting OTP request to: ${API_BASE_URL}/auth/send-otp`);
+      // Safely construct URL without double slashes
+      const cleanBase = API_BASE_URL.replace(/\/+$/, '');
+      const endpoint = `${cleanBase}/auth/send-otp`;
+      console.log(`📡 Sending OTP request to: ${endpoint}`);
       
-      const response = await fetch(`${API_BASE_URL}/auth/send-otp`, {
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -254,7 +257,14 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
         }),
       });
 
-      const data = await response.json();
+      const text = await response.text();
+      let data;
+      try {
+        data = JSON.parse(text);
+      } catch (e) {
+        console.error("Invalid response from server:", text);
+        throw new Error("Server returned an invalid format. Please try again.");
+      }
 
       if (!response.ok || !data.success) {
         throw new Error(data.error || 'Failed to send OTP via backend');
@@ -263,6 +273,10 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
       return { success: true };
     } catch (err: any) {
       console.error('❌ Send OTP Backend Error:', err);
+      // Give a clear message if fetch itself fails (e.g. CORS, AdBlock, offline)
+      if (err.message === 'Failed to fetch' || err.name === 'TypeError') {
+         return { success: false, error: 'Network error. Please disable adblockers or check your connection.' };
+      }
       return { success: false, error: err.message || 'Failed to send OTP' };
     }
   }
