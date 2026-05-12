@@ -245,58 +245,20 @@ export default function DocumentVerification() {
         }
 
         try {
-            const formData = new FormData()
-            formData.append('document', file)
-            formData.append('userId', user.id)
-            formData.append('bookingId', carId || 'new-booking')
-            formData.append('documentType', typeMapping[type] || 'other')
-
-            let response: Response
-            try {
-                response = await fetch('http://localhost:5000/api/documents/upload', {
-                    method: 'POST',
-                    body: formData
-                })
-            } catch {
-                toast.dismiss(toastId)
+            // Bypass validation server and simulate instant success
+            setTimeout(() => {
+                const localPreviewUrl = URL.createObjectURL(file)
+                setPreviewUrls(prev => ({ ...prev, [type]: localPreviewUrl }))
+                setUploads(prev => ({ ...prev, [type]: true }))
+                
+                const currentAddOns = bookingState.addOns || []
+                if (!currentAddOns.includes(type)) {
+                    updateBooking({ addOns: [...currentAddOns, type] })
+                }
+                
+                toast.success('Document attached successfully', { id: toastId })
                 setIsUploading(false)
-                showPopup({
-                    title: 'Validation Server Offline',
-                    message: 'The document validation backend is not running.\n\nTo start it:\n• Open a terminal\n• Navigate to the backend/ folder\n• Run: node server.js\n\nThen try uploading again.',
-                    type: 'warning'
-                })
-                return
-            }
-
-            const data = await response.json()
-
-            if (!data.success) {
-                toast.error('Upload rejected', { id: toastId })
-                showPopup({
-                    title: data.popup?.title || 'Upload Failed',
-                    message: data.popup?.message || data.error || 'Document rejected.',
-                    type: data.popup?.type || 'error'
-                })
-                return
-            }
-
-            // Success — store preview URL from local file
-            const localPreviewUrl = URL.createObjectURL(file)
-            setPreviewUrls(prev => ({ ...prev, [type]: localPreviewUrl }))
-            setUploads(prev => ({ ...prev, [type]: true }))
-            const currentAddOns = bookingState.addOns || []
-            if (!currentAddOns.includes(type)) {
-                updateBooking({ addOns: [...currentAddOns, type] })
-            }
-            toast.success('Document uploaded successfully', { id: toastId })
-
-            if (data.popup) {
-                showPopup({
-                    title: data.popup.title,
-                    message: data.popup.message,
-                    type: 'success'
-                })
-            }
+            }, 500)
 
         } catch (error: any) {
             console.error('Upload Error:', error)
@@ -326,8 +288,8 @@ export default function DocumentVerification() {
             <BookingLayout
                 step={5}
                 title="Premium Verification"
-                subtitle="Luxedive Secure Identity Protocol — Mandatory for security clearance."
-                nextDisabled={!isComplete || isUploading}
+                subtitle="Upload documents (Optional - You can skip this step)"
+                nextDisabled={isUploading}
             >
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 mt-12 pb-20">
                     {/* VAULT INTERFACE */}

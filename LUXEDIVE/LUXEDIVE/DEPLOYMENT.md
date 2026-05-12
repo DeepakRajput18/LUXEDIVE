@@ -53,7 +53,7 @@ supabase functions list
    - **Name:** Test User
    - **Email:** test@example.com
    - **Phone:** 8824342103 (10 digits, Indian format)
-   - **Password:** Test@12345
+   - **Password:** Thala@07
 
 4. **Click "Continue":**
    - Should trigger SMS send
