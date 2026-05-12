@@ -4,7 +4,9 @@ import { supabase } from '../lib/supabaseClient'
 import type { Profile } from '../types/app.types'
 import { logLogout } from '../services/activityLogger'
 
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+// Fallback safely whether VITE_API_URL includes /api or not
+const rawApiUrl = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+const API_BASE_URL = rawApiUrl.endsWith('/api') ? rawApiUrl : `${rawApiUrl}/api`;
 
 interface AuthContextType {
   session: Session | null
